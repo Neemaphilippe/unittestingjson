@@ -13,6 +13,9 @@
 		55BDEF642318552A00B4F288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BDEF632318552A00B4F288 /* Assets.xcassets */; };
 		55BDEF672318552A00B4F288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BDEF652318552A00B4F288 /* LaunchScreen.storyboard */; };
 		55BDEF722318552A00B4F288 /* UnitTestingJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDEF712318552A00B4F288 /* UnitTestingJSONTests.swift */; };
+		55BDEF812318591B00B4F288 /* testingstarwars.json in Resources */ = {isa = PBXBuildFile; fileRef = 55BDEF802318591B00B4F288 /* testingstarwars.json */; };
+		55BDEF832318594700B4F288 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDEF822318594700B4F288 /* Planets.swift */; };
+		55BDEF8423185D1200B4F288 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BDEF822318594700B4F288 /* Planets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 		55BDEF6D2318552A00B4F288 /* UnitTestingJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BDEF712318552A00B4F288 /* UnitTestingJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingJSONTests.swift; sourceTree = "<group>"; };
 		55BDEF732318552A00B4F288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BDEF802318591B00B4F288 /* testingstarwars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testingstarwars.json; sourceTree = "<group>"; };
+		55BDEF822318594700B4F288 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,8 @@
 				55BDEF632318552A00B4F288 /* Assets.xcassets */,
 				55BDEF652318552A00B4F288 /* LaunchScreen.storyboard */,
 				55BDEF682318552A00B4F288 /* Info.plist */,
+				55BDEF802318591B00B4F288 /* testingstarwars.json */,
+				55BDEF822318594700B4F288 /* Planets.swift */,
 			);
 			path = UnitTestingJSON;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BDEF672318552A00B4F288 /* LaunchScreen.storyboard in Resources */,
+				55BDEF812318591B00B4F288 /* testingstarwars.json in Resources */,
 				55BDEF642318552A00B4F288 /* Assets.xcassets in Resources */,
 				55BDEF622318552800B4F288 /* Main.storyboard in Resources */,
 			);
@@ -199,6 +207,7 @@
 			files = (
 				55BDEF5F2318552800B4F288 /* ViewController.swift in Sources */,
 				55BDEF5D2318552800B4F288 /* AppDelegate.swift in Sources */,
+				55BDEF832318594700B4F288 /* Planets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BDEF722318552A00B4F288 /* UnitTestingJSONTests.swift in Sources */,
+				55BDEF8423185D1200B4F288 /* Planets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
